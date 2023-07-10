@@ -1,0 +1,50 @@
+body {
+    padding: 10px;
+}
+
+header {
+    background-image: linear-gradient(180deg, blue,yellow);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: ridge 3px black;
+}
+
+h1 {
+    padding: .2rem;
+    border-right: ridge black 3px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav div {
+    background-color: gray;
+    padding: 1rem;
+    margin: 10px 10px;
+    border: solid black 3px;
+}
+
+#bannerimage {
+    background-image: url(./images/mesh-wide-banner-polygonal-vector-260nw-1341775856\ copy.jpg);
+    width: auto;
+    height: 1rem;
+    padding: 1.5rem;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sectionspace {
+    margin: .2rem 0;
+    border: ridge black 3px;
+}
+
+
