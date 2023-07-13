@@ -9,3 +9,7 @@ This was my first site every created combing everything I learned from HTML and 
 Me, myself and I, Alex Rosu.
 
 Also had a bit of help with Google and some AI search engines to remember certain syntax.
+
+Links:
+Live Site- https://github.com/RaptureMe/Alex-Rosu-Portfolio
+Github repo- https://github.com/RaptureMe/Alex-Rosu-Portfolio
