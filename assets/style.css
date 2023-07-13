@@ -117,7 +117,7 @@ footer div {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: gray;
+    background-image: linear-gradient(179deg, #028bdec2,#062a52);
     padding: .8rem;
     margin: 5px;
     border: solid ;
