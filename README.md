@@ -6,6 +6,6 @@ This was my first site every created combing everything I learned from HTML and 
 
 ## Credits
 
-My myself and I, Alex Rosu.
+Me, myself and I, Alex Rosu.
 
 Also had a bit of help with Google and some AI search engines to remember certain syntax.

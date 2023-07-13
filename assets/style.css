@@ -100,6 +100,7 @@ aside h2 {
     justify-content: center;
 }
 
+
 .my-images {
     width: 300px;
     height: auto;
@@ -121,4 +122,5 @@ footer div {
     padding: .8rem;
     margin: 5px;
     border: solid ;
+    text-shadow: 2px 2px 4px #ffffff58;
 }
