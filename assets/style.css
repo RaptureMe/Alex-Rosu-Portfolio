@@ -1,10 +1,12 @@
 :root {
-    --borders: ridge 3px black
+    --borders: ridge 3px black;
+    --fonts: 'Dancing Script', cursive;
 }
 
 body {
     padding: 7px;
     background-color: aliceblue;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -18,8 +20,11 @@ header {
 
 h1 {
     padding: .2rem;
+    padding-left: 1.2rem;
     border-right: var(--borders);
+    font-family:'Dancing Script', cursive;
 }
+
 
 nav {
     display: flex;
@@ -36,6 +41,23 @@ nav div {
     border: solid ;
 }
 
+a:hover {
+    background-color: #ddd;
+    color: #000;
+    animation-name: fade-in;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
 #bannerimage {
     background-image: url(./images/mesh-wide-banner-polygonal-vector-260nw-1341775856\ copy.jpg);
     width: auto;
@@ -45,6 +67,7 @@ nav div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-shadow: 2px 2px 2px #ffffff;
 }
 
 .sectionspace {
@@ -56,7 +79,7 @@ nav div {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: flex flex-start;
 }
 
 .align {
@@ -67,11 +90,12 @@ nav div {
 aside h2 {
     padding: 20px 20px;
     border-right: var(--borders);
+    font-family: var(--fonts);
 }
 
 .tiles {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -80,4 +104,21 @@ aside h2 {
     width: 300px;
     height: auto;
     padding: 10px;
+    flex: 1;
+}
+
+#h2padding {
+    padding: 20px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    padding: .8rem;
+    margin: 5px;
+    border: solid ;
 }

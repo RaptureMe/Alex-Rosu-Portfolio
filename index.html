@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>Alex Rosu Portfolio</h1>
         <nav>
-            <div>About Me</div>
-            <div>Work</div>
-            <div>Contact Me</div>
+            <div><a href="#about">About Me</a></div>
+            <div><a href="#work">Work</a></div>
+            <div><a href="#contact">Contact Me</a></div>
         </nav>
     </header>
     <section class="sectionspace">
@@ -21,7 +24,7 @@
     </section>
 
     <section class="containers">
-        <aside>
+        <aside id="about">
            <h2>About Me!</h2> 
         </aside>
         <div class="align">
@@ -30,8 +33,8 @@
     </section>
     
     <section class="containers">
-        <aside>
-           <h2>My Work!</h2> 
+        <aside id="work">
+           <h2 id="h2padding">My Work!</h2> 
         </aside>
         <div class="tiles">
             <img src="./assets/images/image.png" class="my-images">
@@ -40,7 +43,18 @@
             <img src="./assets/images/image.png" class="my-images">
             <img src="./assets/images/image.png" class="my-images">
         </div>
-    </section>    
+    </section>
+    
+    <footer class="containers">
+        <aside id="contact">
+           <h2>Contact Me!</h2> 
+        </aside>
+        <div class="align">
+            <div>C- (714)318-2751</div>
+            <div><a href="arosu4u@gmail.com">arosu4u@gmail.com</a></div>
+            <div><a href="https://github.com/RaptureMe/Alex-Rosu-Portfolio">Github</a></div>
+        </div>
+    </footer>
 </body>
 
 </html>
